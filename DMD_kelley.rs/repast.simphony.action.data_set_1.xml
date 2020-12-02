@@ -1,0 +1,229 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.7.0">
+  <name>CellCounts</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>196952700</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>active fibroblast</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>active fibroblast</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getActiveFibroblast4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>collagen density</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>collagen density</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getCollagenDensity</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>diff number</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>diff number</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getDiffNumber4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ECM</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ECM</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getECMTotal</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Fiber</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Fiber</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getFiberTotal</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Fibroblast recruit</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Fibroblast recruit</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getFibrobRecruit</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Fibroblast</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Fibroblast</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getFibroblastNumber4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>M1</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>M1</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getM1</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>M1Total</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>M1Total</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getM1Total</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>M1ae</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>M1ae</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getM1ae</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>M1de</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>M1de</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getM1de</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>M2</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>M2</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getM2</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Myoblast</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Myoblast</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getMyoblastNumber4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Myofibroblast</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Myofibroblast</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getMyofibroblastNumber4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Neutrophil</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Neutrophil</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getN</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Apop Neutrophil</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Apop Neutrophil</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getNa</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Necrosis</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Necrosis</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getNecrosisTotal</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Pax7 SSCs</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Pax7 SSCs</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getPax7Number4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>ResMacs</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>ResMacs</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getRM</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Senescent SSCs</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Senescent SSCs</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getSenescentSSC4Plot</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Tick</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Tick</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getTick</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Total Collagen</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Total Collagen</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getTotalCollagen</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Total Size</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Total Size</id>
+        <className>muscle.InflamCell</className>
+        <methodName>getTotalSize</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

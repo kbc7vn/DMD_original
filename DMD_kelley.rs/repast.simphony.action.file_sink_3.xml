@@ -1,0 +1,34 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.7.0">
+  <name>Controls_kelley</name>
+  <dataSet>CellCounts</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>active fibroblast</string>
+    <string>collagen density</string>
+    <string>diff number</string>
+    <string>ECM</string>
+    <string>Fiber</string>
+    <string>Fibroblast recruit</string>
+    <string>Fibroblast</string>
+    <string>M1</string>
+    <string>M1Total</string>
+    <string>M1ae</string>
+    <string>M1de</string>
+    <string>M2</string>
+    <string>Myoblast</string>
+    <string>Myofibroblast</string>
+    <string>Neutrophil</string>
+    <string>Apop Neutrophil</string>
+    <string>Necrosis</string>
+    <string>Pax7 SSCs</string>
+    <string>ResMacs</string>
+    <string>Senescent SSCs</string>
+    <string>Tick</string>
+    <string>Total Collagen</string>
+    <string>Total Size</string>
+    <string>tick</string>
+  </sourceIds>
+  <fileName>kelley_output.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

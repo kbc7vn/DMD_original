@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+
+	<parameter name="randomSeed" displayName="Default Random Seed" type="int" defaultValue="__NULL__" />
+	<parameter name="n_initial" displayName="n_initial" type="int" defaultValue="0" />
+	<parameter name="na_initial" displayName="na_initial" type="int" defaultValue="0" />
+	<parameter name="m1_initial" displayName="m1_initial" type="int" defaultValue="0" />
+	<parameter name="m1ae_initial" displayName="m1ae_initial" type="int" defaultValue="0" />
+	<parameter name="m1de_initial" displayName="m1de_initial" type="int" defaultValue="0" />
+	<parameter name="m2_initial" displayName="m2_initial" type="int" defaultValue="0" />
+
+</parameters>
